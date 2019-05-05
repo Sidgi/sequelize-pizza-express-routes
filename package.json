@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
     "db:init": "dropdb --if-exists -e pizza_express_hw && createdb -e pizza_express_hw",
-    "db:reset": "echo 'What is a resetDb.js?'",
-    "db:seed": "echo 'What is a seed.js?'"
+    "db:reset": "node resetDb.js",
+    "db:seed": "node seed.js"
   },
   "repository": {
     "type": "git",
